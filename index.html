@@ -29,6 +29,7 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link" href="#aboutMe">About</a>
+                    <a class="nav-link" href="#experience">Experience</a>
                     <a class="nav-link" href="#techskill">Skills</a>
                     <a class="nav-link" href="#education">Education</a>
                     <a class="nav-link" href="#projects">Project</a>
@@ -51,12 +52,12 @@
     <section id="aboutMe">
         <h3 class="heading">About Me</h3>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="image_about push-left">
-                    <img src="images/bhavya_img.jpg" width="240px" id="bhavya_img">
+                    <img src="images/_MG_8187.JPG" width="450px" id="bhavya_img">
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <div class="para  push-right">
                     <p>Hey, My name is <strong style="text-decoration: underline;">Bhavya Chandra.</strong>I'm
                         currently
@@ -76,6 +77,61 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section id="experience">
+        <h3 class="heading">Experience</h3>
+        <div class="wrapper">
+    <div class="center-line">
+      <a href="#" class="scroll-icon"></a>
+    </div>
+    <div class="exp-row row-1 reveal">
+      <section>
+        <i class="icon"></i>
+        <div class="exp-details">
+          <span class="title">Web Development Inten</span>
+          <span style="color:#A9A9A9;">Feb'22 to Present</span>
+        </div>
+        <a href="https://skilloxide.com/" class="company-link" target="_blank">
+          <p class="company">Skill Oxide IT Private Limited</p>
+        </a>
+        <p style="font-size: 15px;">
+          <ul style="margin-left: 10px;">
+            <li>Wrote custom HTML, Bootstrap, CSS, JavaScript and PHP for existing websites and applications.</li>
+            <li>
+              Provided technical support related to web-based systems to internal teams, such as assisting in
+              troubleshooting
+              issues on the systems.
+            </li>
+            <li>Design customer-facing UI and back-end services for various business processes as well as recommend and 
+              pitch improvements to new and existing features.</li>
+          </ul>
+        </p>
+      </section>
+    </div>
+    <div class="exp-row row-2 reveal">
+      <section>
+        <i class="icon"></i>
+        <div class="exp-details">
+          <span class="title">Database Intern</span>
+          <span style="color:#A9A9A9;">May'22 to June'22</span>
+        </div>
+        <a href="https://sapioanalytics.com/" class="company-link" target="_blank">
+          <p class="company">Sapio Analytics</p>
+        </a>
+        <p style="font-size: 15px;">
+          <ul style="margin-left: 10px;">
+            <li>Responsible for working with the Database Team in Sapio to assist in the day-to-day 
+              administration, support and ongoing enhancement of their Database Infrastructure. </li>
+            <li>Primarily responsible for assisting in the maintenance and creation of Database of ongoing project and learning how to 
+              support the environment to maximize system uptime and productivity.</li>
+              <li>
+                Helped in maintaining existing Entity Relationship Diagrams, Schemas and Database.
+              </li>
+          </ul>
+        </p>
+      </section>
+    </div>
+  </div>
     </section>
     <section id="information">
         <div class="row">
@@ -200,45 +256,64 @@
         </main>
     </section>
     <section id="contact">
-        <h3 class="heading">Contact Info</h3>
-        <div class="contact-info">
-            <div class="card display">
-                <i class="icon fas fa-envelope"></i>
-                <div class="card-content">
-                    <a href="mailto:bhavyachandra281@gmail.com" target="_blank">
-                        <h3>Email</h3>
-                        <span>bhavyachandra281@gmail.com</span>
-                    </a>
+        <h3 class="heading">Contact</h3>
+        <div class="contact">
+        <div class="container">
+            <div class="content">
+              <div class="left-side">
+                <div class="email contact-details">
+                    <a class="btn btn-floating" href=" mailto:bhavyachandra281@gmail.com" role="button"
+                            target="_blank">
+                  <i class="fas fa-envelope"></i>
+                  <div class="topic">Email</div>
+                  <div class="text-one">bhavyachandra281b@gmail.com</div>
+                  </a>
                 </div>
-            </div>
-            <div class="card display">
-                <i class="icon fab fa-linkedin"></i>
-                <div class="card-content">
-                    <a href="https://www.linkedin.com/in/bhavya-chandra-508293213" target="_blank">
-                        <h3>Linkedin</h3>
-                        <span>Bhavya Chandra</span>
-                    </a>
+                <div class="linkedin contact-details">
+                    <a class="btn btn-floating " href="https://www.linkedin.com/in/bhavya-chandra-508293213"
+                            role="button" target="_blank"><i class="fab fa-linkedin-in"></i>
+                  <div class="topic">Linkedin</div>
+                  <div class="text-one">Bhavya Chandra</div>
+                </a>
                 </div>
-            </div>
-            <div class="card display">
-                <i class="icon fab fa-github"></i>
-                <div class="card-content">
-                    <a href="https://github.com/bhavya281" target="_blank">
-                        <h3>gitHub</h3>
-                        <span>@bhavya281</span>
-                    </a>
+                <div class="github contact-details">
+                    <a class="btn btn-floating" href=" https://github.com/bhavya281" role="button"
+                            target="_blank"><i class="fab fa-github"></i>
+                  <div class="topic">GitHub</div>
+                  <div class="text-one">@bhavya281</div>
+                </a>
                 </div>
+              </div>
+              <div class="right-side">
+                <div class="topic-text">Send me a message</div>
+              <form method="POST" action="https://formspree.io/f/xzboqzea" id="contact-form">
+                  <div class="input-box">
+                    <input type="text" name="name" placeholder="Name" value="" required>
+                  </div>
+                  <div class="input-box">
+                    <input type="text" name="email" placeholder="Email" value="" required>
+                  </div>
+                  <div class="input-box message-box">
+                    <textarea name="message" placeholder="Message" value="" required></textarea>
+                  </div>
+                  <button class="button send-button" id="submit" type="submit" value="SEND">
+                  <div class="alt-send-button"><input type="button" value="Send Now" >
+                  </div>
+                  </button>
+              </form>
             </div>
+            </div>
+          </div>
         </div>
     </section>
     <section id="footer">
         <footer>
             <div class="container">
                 <section class="footer-content">
-                    <p class="footer-para"><strong>Thank You.</strong><br>I'm looking for a career in a competitive
+                    <p class="footer-para"><strong style="font-size:16px">THANK YOU</strong><br>I'm looking for a career in a competitive
                         atmosphere that will push me to exceed my limits and broaden my knowledge in the field of
                         Computer Science.<br>
-                        Feel free to contact me.<br>
+                       Feel free to connect with me on<br>
                         <a class="btn btn-floating" href=" mailto:bhavyachandra281@gmail.com" role="button"
                             target="_blank"><i class="fas fa-envelope"></i></a>
                         <a class="btn btn-floating " href="https://www.linkedin.com/in/bhavya-chandra-508293213"
@@ -249,7 +324,7 @@
                 </section>
             </div>
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); color:#EFEFEF">
-                Coded by <a class="footer-a" href="https://github.com/bhavya281">Bhavya
+                Coded by <a class="footer-a" href="https://www.linkedin.com/in/bhavya-chandra-508293213" target="_blank">Bhavya
                     Chandra</a> with 💗
             </div>
         </footer>
