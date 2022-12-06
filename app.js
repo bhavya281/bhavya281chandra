@@ -29,13 +29,16 @@ new TypeWriter(`#typewriter`, {
     },
     timeout: 50
 })
-    .write(`Computer Science Student`)
+    .write(`MBA Student`)
+    .wait(2500)
+    .removeAll()
+    .write(`Finance Enthusiast`)
+    .wait(2500)
+    .removeAll()
+    .write(`Computer Engineer`)
     .wait(2500)
     .removeAll()
     .write(`Web Developer`)
-    .wait(2500)
-    .removeAll()
-    .write(`Machine Learning Enthusiast`)
     .wait(2500)
     .removeAll()
     .start();
